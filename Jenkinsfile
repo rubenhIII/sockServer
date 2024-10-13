@@ -12,7 +12,7 @@ pipeline {
 		stage('docker push') {
 			steps {
 				script {
-					sh "docker push rhiiitech/sockserver:1.0.0-${BUILD-ID}"
+					sh "docker push rhiiitech/sockserver:1.0.0-${BUILD_ID}"
 				}
 			}
 		}
