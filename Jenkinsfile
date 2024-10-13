@@ -5,7 +5,7 @@ pipeline {
 		stage('docker build') {
 			steps {
 				script {
-					sh "docker build -f Dockerfile -t rhiiitech/sockServer:1.0.0-${BUILD_ID}"
+					sh "docker build -f Dockerfile -t rhiiitech/sockServer:1.0.0-${BUILD_ID} ."
 				}
 			}
 		}
