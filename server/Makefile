@@ -1,6 +1,6 @@
-SOURCES = aesdsocket.c
+SOURCES = server.c
 OBJS = $(SOURCES:.c=.o)
-TARGET = aesdsocket
+TARGET = server
 
 CROSS_COMPILE =#aarch64-none-linux-gnu-#Cross-Compile Toolchain 
 CC = gcc
